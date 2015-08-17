@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report Version="2.0" Name="Report" Layer="True" TOCField="" DatasetMode="0" StartingPageNumber="1">
+	<DataSource Name="R177196_report" BrowseName="R177196_report" Type="5" FullName="">
+		<Workspace WorkspaceType="0" PathName="C:\geog485\FinalProject\TargetFolder">
+			<Property Name="DATABASE" Value="C:\geog485\FinalProject\TargetFolder" />
+		</Workspace>
+	</DataSource>
+	<SourceFields>
+		<Field Name="FID" SafeName="FID" Type="6" SortAsc="True" />
+		<Field Name="AREA" SafeName="AREA" Type="3" SortAsc="True" />
+		<Field Name="PERIMETER" SafeName="PERIMETER" Type="3" SortAsc="True" />
+		<Field Name="PARCELS_" SafeName="PARCELS_" Type="1" SortAsc="True" />
+		<Field Name="PARCELS_ID" SafeName="PARCELS_ID" Type="1" SortAsc="True" />
+		<Field Name="XREF" SafeName="XREF" Type="4" SortAsc="True" />
+		<Field Name="OID_" SafeName="OID_" Type="1" SortAsc="True" />
+		<Field Name="ID" SafeName="ID" Type="4" SortAsc="True" />
+		<Field Name="NAME" SafeName="NAME" Type="4" SortAsc="True" />
+		<Field Name="ADDRESS" SafeName="ADDRESS" Type="4" SortAsc="True" />
+		<Field Name="ADDRESS2" SafeName="ADDRESS2" Type="4" SortAsc="True" />
+		<Field Name="ADDRESS3" SafeName="ADDRESS3" Type="4" SortAsc="True" />
+		<Field Name="CITY" SafeName="CITY" Type="4" SortAsc="True" />
+		<Field Name="ST" SafeName="ST" Type="4" SortAsc="True" />
+		<Field Name="ZIP" SafeName="ZIP" Type="4" SortAsc="True" />
+		<Field Name="SITUS_NO" SafeName="SITUS_NO" Type="4" SortAsc="True" />
+		<Field Name="SITUS" SafeName="SITUS" Type="4" SortAsc="True" />
+		<Field Name="LEGAL" SafeName="LEGAL" Type="4" SortAsc="True" />
+		<Field Name="ENTITIES" SafeName="ENTITIES" Type="4" SortAsc="True" />
+		<Field Name="ACRES" SafeName="ACRES" Type="4" SortAsc="True" />
+		<Field Name="LANDUSE" SafeName="LANDUSE" Type="4" SortAsc="True" />
+		<Field Name="PAGE" SafeName="PAGE" Type="4" SortAsc="True" />
+		<Field Name="NBHD" SafeName="NBHD" Type="4" SortAsc="True" />
+		<Field Name="INTEREST" SafeName="INTEREST" Type="3" SortAsc="True" />
+		<Field Name="EXEMPT" SafeName="EXEMPT" Type="4" SortAsc="True" />
+		<Field Name="FLAGS" SafeName="FLAGS" Type="4" SortAsc="True" />
+		<Field Name="SECURE" SafeName="SECURE" Type="3" SortAsc="True" />
+		<Field Name="VAL15LAND" SafeName="VAL15LAND" Type="3" SortAsc="True" />
+		<Field Name="VAL15IMP" SafeName="VAL15IMP" Type="3" SortAsc="True" />
+		<Field Name="VAL15TOT" SafeName="VAL15TOT" Type="3" SortAsc="True" />
+	</SourceFields>
+	<ReportFields>
+		<Field Name="ID" />
+		<Field Name="NAME" />
+		<Field Name="ADDRESS" />
+		<Field Name="ADDRESS2" />
+		<Field Name="ADDRESS3" />
+		<Field Name="CITY" />
+		<Field Name="ST" />
+		<Field Name="ZIP" />
+	</ReportFields>
+	<ReportStyle Name="Tunis" UserStyle="False">
+		<SectionStyle Type="0" BackColor="#E3DED1">
+			<Font Size="18" Style="Regular" Color="#323232">Verdana</Font>
+		</SectionStyle>
+		<SectionStyle Type="1" BackColor="#323232">
+			<Font Size="8" Style="Regular" Color="#E3DED1">Verdana</Font>
+		</SectionStyle>
+		<SectionStyle Type="2">
+			<Font Size="8" Style="Bold" Color="#604878">Verdana</Font>
+		</SectionStyle>
+		<DetailSectionStyle Type="3">
+			<Font Size="8" Style="Regular" Color="#000000">Verdana</Font>
+		</DetailSectionStyle>
+		<SectionStyle Type="4">
+			<Font Size="7" Style="Regular" Color="#323232">Verdana</Font>
+		</SectionStyle>
+		<SectionStyle Type="5">
+			<Font Size="7" Style="Regular" Color="#323232">Verdana</Font>
+		</SectionStyle>
+		<SectionStyle Type="6">
+			<Font Size="7" Style="Regular" Color="#323232">Verdana</Font>
+		</SectionStyle>
+	</ReportStyle>
+	<ActiveReportsLayout Version="3.1" PrintWidth="12960" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+		<StyleSheet>
+			<Style Name="Normal" Value="font-family: Arial; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black; " />
+			<Style Name="Heading1" Value="font-size: 16pt; font-weight: bold; " />
+			<Style Name="Heading2" Value="font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: italic; " />
+			<Style Name="Heading3" Value="font-size: 13pt; font-weight: bold; " />
+		</StyleSheet>
+		<Sections>
+			<Section Type="ReportHeader" Name="ReportHeader" Height="723" BackStyle="1" BackColor="13754083">
+				<Control Type="AR.Label" Name="lblReportTitle" Left="0" Top="72" Width="4160" Height="580" Caption="Report" Style="color: #323232; background-color: #E3DED1; font-size: 18pt; font-family: Verdana; vertical-align: middle; " />
+			</Section>
+			<Section Type="PageHeader" Name="pageHeader" Height="259" BackStyle="1" BackColor="3289650">
+				<Control Type="AR.Label" Name="lblID" Left="0" Top="0" Width="1321.112" Height="260" Caption="ID" Style="color: #E3DED1; background-color: #323232; font-size: 8pt; font-family: Verdana; white-space: nowrap; " />
+				<Control Type="AR.Label" Name="lblNAME" Left="1322.452" Top="0" Width="1916.543" Height="260" Caption="NAME" Style="color: #E3DED1; background-color: #323232; font-size: 8pt; font-family: Verdana; white-space: nowrap; " />
+				<Control Type="AR.Label" Name="lblADDRESS" Left="3240.335" Top="0" Width="1916.543" Height="260" Caption="ADDRESS" Style="color: #E3DED1; background-color: #323232; font-size: 8pt; font-family: Verdana; white-space: nowrap; " />
+				<Control Type="AR.Label" Name="lblADDRESS2" Left="5158.218" Top="0" Width="1916.543" Height="260" Caption="ADDRESS2" Style="color: #E3DED1; background-color: #323232; font-size: 8pt; font-family: Verdana; white-space: nowrap; " />
+				<Control Type="AR.Label" Name="lblADDRESS3" Left="7076.101" Top="0" Width="1916.543" Height="260" Caption="ADDRESS3" Style="color: #E3DED1; background-color: #323232; font-size: 8pt; font-family: Verdana; white-space: nowrap; " />
+				<Control Type="AR.Label" Name="lblCITY" Left="8993.984" Top="0" Width="1916.543" Height="260" Caption="CITY" Style="color: #E3DED1; background-color: #323232; font-size: 8pt; font-family: Verdana; white-space: nowrap; " />
+				<Control Type="AR.Label" Name="lblST" Left="10911.87" Top="0" Width="427.966" Height="260" Caption="ST" Style="color: #E3DED1; background-color: #323232; font-size: 8pt; font-family: Verdana; white-space: nowrap; " />
+				<Control Type="AR.Label" Name="lblZIP" Left="11341.17" Top="0" Width="1618.828" Height="260" Caption="ZIP" Style="color: #E3DED1; background-color: #323232; font-size: 8pt; font-family: Verdana; white-space: nowrap; " />
+			</Section>
+			<Section Type="Detail" Name="detail" Height="259" BackColor="16777215">
+				<Control Type="AR.Field" Name="txtID" DataField="ID" Left="0" Top="0" Width="1321.112" Height="260" Text="ID" Style="color: #000000; font-size: 8pt; font-family: Verdana; " />
+				<Control Type="AR.Field" Name="txtNAME" DataField="NAME" Left="1322.452" Top="0" Width="1916.543" Height="260" Text="NAME" Style="color: #000000; font-size: 8pt; font-family: Verdana; " />
+				<Control Type="AR.Field" Name="txtADDRESS" DataField="ADDRESS" Left="3240.335" Top="0" Width="1916.543" Height="260" Text="ADDRESS" Style="color: #000000; font-size: 8pt; font-family: Verdana; " />
+				<Control Type="AR.Field" Name="txtADDRESS2" DataField="ADDRESS2" Left="5158.218" Top="0" Width="1916.543" Height="260" Text="ADDRESS2" Style="color: #000000; font-size: 8pt; font-family: Verdana; " />
+				<Control Type="AR.Field" Name="txtADDRESS3" DataField="ADDRESS3" Left="7076.101" Top="0" Width="1916.543" Height="260" Text="ADDRESS3" Style="color: #000000; font-size: 8pt; font-family: Verdana; " />
+				<Control Type="AR.Field" Name="txtCITY" DataField="CITY" Left="8993.984" Top="0" Width="1916.543" Height="260" Text="CITY" Style="color: #000000; font-size: 8pt; font-family: Verdana; " />
+				<Control Type="AR.Field" Name="txtST" DataField="ST" Left="10911.87" Top="0" Width="427.966" Height="260" Text="ST" Style="color: #000000; font-size: 8pt; font-family: Verdana; " />
+				<Control Type="AR.Field" Name="txtZIP" DataField="ZIP" Left="11341.17" Top="0" Width="1618.828" Height="260" Text="ZIP" Style="color: #000000; font-size: 8pt; font-family: Verdana; " />
+			</Section>
+			<Section Type="PageFooter" Name="pageFooter" Height="299" BackColor="16777215">
+				<Control Type="AR.ReportInfo" Name="rptInfoPgNo" Left="1980" Top="0" Width="5400" Height="288" FormatString="Page {PageNumber} of {PageCount}" Style="color: #323232; text-align: center; font-size: 7pt; font-family: Verdana; " />
+			</Section>
+			<Section Type="ReportFooter" Name="ReportFooter" Height="0" BackColor="16777215" />
+		</Sections>
+		<ReportComponentTray />
+		<PageSettings TopMargin="720" Orientation="2" />
+		<Parameters />
+	</ActiveReportsLayout>
+</Report>
